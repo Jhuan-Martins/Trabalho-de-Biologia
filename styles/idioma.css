@@ -1,0 +1,23 @@
+body{
+    background-image: url(../images/vecteezy_vibrant-tropical-leaf-backgrounds-high-resolution-images_49546559.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+
+div{
+    width: 15%;
+    padding: 65px 10px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.Brasil{
+    background-image: url(../images/brasiru.png);
+    background-size: cover;
+}
