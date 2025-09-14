@@ -1,38 +1,109 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #3b7a57;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 nav {
-  position: fixed;       
-  top: 0;                
-  left: 0;               
-  width: 100%;           
-  background-color: green; 
-  padding: 10px 0;       
-  z-index: 1000;         
+  background-color: #2f5e44;
+  padding: 15px;
+  text-align: center;
 }
 
 nav ul {
-  list-style: none;       
-  display: flex;          
-  justify-content: center; 
-  gap: 30px;              
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav a {
-  color: white;           
-  text-decoration: none;  
-  font-weight: bold;
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
 }
 
-nav a:hover {
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
   text-decoration: underline;
 }
 
-body {
-  padding-top: 60px; 
-  margin: 100px;
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
 }
 
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: #3b7a57;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+h3 {
+  color: #2f5e44;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.org-item {
+  background-color: #e8f5e9;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+.legenda {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.topo {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.topo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3b7a57;
+}
+
+#imagem img{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #3b7a57;
+  border-radius: 30px;
+}
